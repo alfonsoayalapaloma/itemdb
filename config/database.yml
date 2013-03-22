@@ -15,10 +15,10 @@
 development:
   adapter: postgresql
   encoding: unicode
-  database: itemdb_dev
+  database: d4ed1mirv642bt
   pool: 5
-  username: postgres
-  password: 123
+  username: zgwacgvaemqujv
+  password: dsIaqaR4vXYMo8qj_2m1Q2moE8
   min_messages: warning
 
   # Connect on a TCP socket. Omitted by default since the client uses a
@@ -42,17 +42,17 @@ development:
 test:
   adapter: postgresql
   encoding: unicode
-  database: itemdb_test
+  database: d4ed1mirv642bt
   pool: 5
-  username: postgres
-  password: 123
+  username: zgwacgvaemqujv
+  password: dsIaqaR4vXYMo8qj_2m1Q2moE8
   min_messages: warning
 
 production:
   adapter: postgresql
   encoding: unicode
-  database: itemdb_prod
+  database: d4ed1mirv642bt
   pool: 5
-  username: postgres
-  password: 123
+  username: zgwacgvaemqujv
+  password: dsIaqaR4vXYMo8qj_2m1Q2moE8
   min_messages: warning
