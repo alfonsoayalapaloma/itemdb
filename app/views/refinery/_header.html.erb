@@ -3,6 +3,16 @@
   <%= link_to Refinery::Core.site_name, refinery.root_path %>
 </h1>
 </div>
+
+
+<div class="panel">
+<%= render(:partial => "/refinery/menu", :locals => {
+             :dom_id => 'menu',
+             :css => 'menu'
+           }) %>
+
+</div>
+
 <div class="search">
 <%= form_tag refinery.search_path do -%>
   <%= text_field_tag :query, {}, {:type => "search",
@@ -12,11 +22,3 @@
 <% end %>
 
 </div>
-
-<div class="panel">
-<%= render(:partial => "/refinery/menu", :locals => {
-             :dom_id => 'menu',
-             :css => 'menu'
-           }) %>
-
-<div>
