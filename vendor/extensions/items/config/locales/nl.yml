@@ -1,0 +1,36 @@
+nl:
+  refinery:
+    plugins:
+      items:
+        title: Items
+    items:
+      admin:
+        items:
+          actions:
+            create_new: Maak een nieuwe Item
+            reorder: Wijzig de volgorde van de Items
+            reorder_done: Klaar met het wijzingen van de volgorde van de Items
+          records:
+            title: Items
+            sorry_no_results: Helaas! Er zijn geen resultaten gevonden.
+            no_items_yet: Er zijn nog geen Items. Druk op 'Maak een nieuwe Item' om de eerste aan te maken.
+          item:
+            view_live_html: Bekijk deze item op de website <br/><em>(opent een nieuw venster)</em>
+            edit: Bewerk deze item
+            delete: Verwijder deze item voor eeuwig
+      items:
+        show:
+          other: Andere Items
+  activerecord:
+    attributes:
+      'refinery/items/item':
+        nombre: Nombre
+        id: Id
+        descripcion: Descripcion
+        cantidad: Cantidad
+        photo: Photo
+        ficha: Ficha
+        troubleshooting: Troubleshooting
+        homologacion: Homologacion
+        date: Date
+        comentarios: Comentarios
